@@ -1624,7 +1624,7 @@ var Artyom = (function () {
     
 </head>
 <body>
-<inputc><textarea id="output" type="text" style="width:100%; height: 30px; padding-left: 25px;" class="BLACC-center"></textarea></inputc>
+<inputc autocomplete="off"><textarea id="output" type="text" style="width:100%; height: 30px; padding-left: 25px;" class="BLACC-center" Title="If Copying From Suggestion Box, Paste, Backspace then Enter"  onKeyUp="showResults(this.value)"></textarea></inputc>
 
 <form autocomplete="off"><input type="text" name="q" id="q" onKeyUp="showResults(this.value)" />
 <div id="result"></div>
@@ -17874,7 +17874,7 @@ function myFunction1() {
         //default  {
     default:
     text = "My apologies.";
-    Arthenya.say("I could not hear you clearly King Carpenter can you please repeat that");
+    Arthenya.say("I could not hear you clearly can you please repeat that");
     break;
     
     //}
